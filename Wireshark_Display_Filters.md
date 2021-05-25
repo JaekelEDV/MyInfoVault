@@ -13,11 +13,11 @@ Detailled information here: <https://www.wireshark.org/docs/man-pages/wireshark-
 
     http && ip.src == 10.0.0.1
 
-## source address
+## source/destination address
 
-    eth.dst == ff:ff:ff:ff:ff:ff
+    eth.src == ff:ff:ff:ff:ff:ff
 
-    eth.dst == ff-ff-ff-ff-ff-ff
+    eth.src == ff-ff-ff-ff-ff-ff
 
     eth.dst == ffff.ffff.ffff
 
